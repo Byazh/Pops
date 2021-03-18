@@ -1,0 +1,87 @@
+* {
+    -fx-primary-color: #DB202C;
+    -fx-secondary-color: #303030;
+}
+
+.starting-darker-pane {
+    -fx-opacity: 0.60;
+    -fx-background-color: black;
+}
+
+.starting-top-label {
+    -fx-text-fill: white;
+    -fx-font-size: 57;
+    -fx-font-family: Impact;
+}
+
+.starting-down-label {
+    -fx-text-fill: #a4a4a4;
+    -fx-font-size: 24;
+    -fx-font-family: Impact;
+}
+
+.starting-button {
+    -fx-background-color: -fx-primary-color;
+    -fx-text-fill: #eedddd;
+    -fx-font-size: 28;
+    -fx-font-family: Impact;
+}
+
+.starting-social-pane {
+    -fx-opacity: 0.73;
+    -fx-background-color: #8c1616;
+    -fx-background-radius: 25;
+}
+
+.profiles-root, .home-root, .loading-root {
+    -fx-background-color: -fx-secondary-color;
+}
+
+.profiles-name {
+    -fx-text-fill: #eedddd;
+    -fx-font-size: 15;
+    -fx-font-family: "Courier New";
+}
+
+.home-root {
+    -fx-background-color: -fx-secondary-color;
+}
+
+.home-scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+.home-scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.home-scroll-pane .scroll-bar:horizontal {
+    -fx-background-color: transparent;
+}
+
+.home-scroll-pane .scroll-bar:horizontal .track {
+    -fx-background-color: transparent;
+}
+
+.home-scroll-pane .scroll-bar:horizontal .thumb {
+    -fx-background-color: #424242;
+    -fx-background-radius: 35;
+}
+
+.home-scroll-pane .increment-button, .home-scroll-pane .decrement-button {
+    -fx-opacity: 0;
+}
+
+.home-scroll-name {
+    -fx-text-fill: #969695;
+    -fx-font-size: 15;
+    -fx-font-family: "Impact";
+}
+
+.home-search-field {
+    -fx-background-color: -fx-secondary-color;
+    -fx-border-color: -fx-primary-color;
+    -fx-border-radius: 30;
+    -fx-font-size: 15;
+    -fx-text-fill: gray;
+}

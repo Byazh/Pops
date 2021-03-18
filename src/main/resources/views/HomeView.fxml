@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+            prefHeight="551.0" prefWidth="1040.0" styleClass="home-root" stylesheets="@../styles/styles.css"
+            xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.byaz.pops.controllers.subs.HomeController">
+   <ImageView fitHeight="81.0" fitWidth="153.0" layoutX="35.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../images/logo.png"/>
+   </ImageView>
+   <ImageView fx:id="avatar" fitHeight="61.0" fitWidth="55.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+   </ImageView>
+   <ImageView fx:id="arrow" layoutX="930.0" layoutY="44.0" opacity="0.72">
+      <Image url="@../images/down.png"/>
+   </ImageView>
+   <TextField fx:id="field" layoutX="691.0" layoutY="39.0" prefHeight="35.0" prefWidth="200.0" promptText="Search"
+              styleClass="home-search-field">
+   </TextField>
+   <ImageView fx:id="search" fitHeight="24.0" fitWidth="15.0" layoutX="653.0" layoutY="49.0" pickOnBounds="true"
+              preserveRatio="true">
+      <Image url="@../images/search.png"/>
+   </ImageView>
+</AnchorPane>

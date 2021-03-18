@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+            styleClass="loading-root" stylesheets="@../styles/styles.css" xmlns="http://javafx.com/javafx/10.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.byaz.pops.controllers.subs.LoadingController">
+   <ImageView fx:id="gif" fitHeight="200.0" fitWidth="200.0" preserveRatio="true">
+      <Image url="@../gifs/loading.gif"/>
+   </ImageView>
+   <ImageView fitHeight="81.0" fitWidth="153.0" layoutX="35.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../images/logo.png"/>
+   </ImageView>
+</AnchorPane>

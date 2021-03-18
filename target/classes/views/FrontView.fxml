@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+            prefHeight="639.0" prefWidth="1019.0" stylesheets="@../styles/styles.css"
+            xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.byaz.pops.controllers.subs.FrontController">
+   <VBox fx:id="box" layoutX="-3.0" prefHeight="647.0" prefWidth="1025.0">
+      <ImageView fx:id="background" pickOnBounds="true">
+         <Image url="@../images/background.png"/>
+      </ImageView>
+      <ImageView fx:id="instagramLogo" fitHeight="41.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+         <Image url="@../images/instagram.png"/>
+      </ImageView>
+      <ImageView fx:id="githubLogo" fitHeight="41.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+         <Image url="@../images/github.png"/>
+      </ImageView>
+   </VBox>
+   <Pane fx:id="darkPane" styleClass="starting-darker-pane"/>
+   <ImageView fitHeight="81.0" fitWidth="153.0" layoutX="35.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../images/logo.png"/>
+   </ImageView>
+   <Pane fx:id="containerPane" layoutX="35.0">
+      <Label fx:id="topLabel" layoutY="64.0" styleClass="starting-top-label" text="Where you want, how you want"/>
+      <Label fx:id="downLabel" layoutY="92.0" styleClass="starting-down-label"
+             text="POPS, THE FIRST OPEN SOURCE STREAMING APPLICATION"/>
+      <Button fx:id="button" onMouseClicked="#onButtonClick" layoutY="161.0" mnemonicParsing="false"
+              prefHeight="65.0" prefWidth="313.0" styleClass="starting-button" text="&lt;pops.start&gt;"/>
+   </Pane>
+   <Pane fx:id="socialPane" prefHeight="65.0" prefWidth="159.0" styleClass="starting-social-pane">
+      <Label fx:id="instagram" onMouseClicked="#onInstagramClick" layoutX="38.0" layoutY="24.0"/>
+      <Label fx:id="github" onMouseClicked="#onGithubClick" layoutX="80.0" layoutY="16.0"/>
+   </Pane>
+</AnchorPane>
