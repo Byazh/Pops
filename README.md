@@ -1,7 +1,6 @@
 # Pops
 #### 22/06/2019
-This program is a desktop streaming application where users can create up to five profiles, select the latest, most popular or voted series or manually search for the desired one in the dedicated gap. It was written in Java and it uses the JavaFX framework. This was made in around 10 days, I initially lost everything but then recoded it in around 6 days. There are some things missing, but my goal wasn't to finish it but to learn how to use bindings in JavaFX, in fact the application can be resized without glitching the UI.
-I first abandoned the project because of legal problems, but now I didn't want to throw everything away so I created this repository to showcase it.
+This program is a desktop streaming application where users can create up to five profiles, select the latest, most popular or voted series and watch them with no ads or popups. It loads each series and episode from illegal streaming websites, which is why I can't publish it officially. There are some things missing, but my goal wasn't to finish it but to learn how to use bindings in JavaFX, in fact the application can be resized without glitching the UI. 
 
 ![image1](https://user-images.githubusercontent.com/43955533/111700007-20383500-8839-11eb-9b87-5d4231c761c9.jpeg)
 
